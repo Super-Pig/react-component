@@ -1,0 +1,35 @@
+{
+  "name": "input",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "garry彭 <250631521@qq.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/input.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com/"
+  },
+  "scripts": {
+    "build": "webpack",
+    "test": "node ./__tests__/input.test.js"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
+    "babel-loader": "^9.1.2",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
+  }
+}
